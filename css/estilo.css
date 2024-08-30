@@ -1,0 +1,720 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.pai {
+	display: flex;
+	flex-direction: column;
+}
+
+.cabecalho {
+	display: flex;
+	width: 100%;
+	height: 20vh;
+	background-color: #44A1A0;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+
+.logo {
+	display: flex;
+	width: 100%;
+	height: 15vh;
+	margin-left: 3vh;
+
+
+}
+
+.navegacao {
+	display: flex;
+	width: 30%;
+	height: 15vh;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin-right: 3vh;
+
+
+}
+
+.icones {
+	display: flex;
+	width: 100%;
+	height: 7vh;
+	justify-content: flex-end;
+	margin: 1vh;
+
+}
+
+.icones img {
+	height: 60%;
+	margin-left: 2vh;
+}
+
+.menu {
+	width: 100%;
+	height: 16vh;
+	margin-right: 5vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-end;
+	color: white;
+}
+
+.menu span:hover {
+	color: #CCCCCC;
+	cursor: pointer;
+}
+/* inicio banner */
+
+.banner {
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
+.banner img {
+	width: 100%;
+}
+/* fim banner */
+
+/* botões */
+.btnAnterior{
+	width: 10vh;
+	height: 10vh;
+	background-color: black;
+	border-radius: 50%;
+
+	position: absolute;
+	top: calc(50% - 5vh);
+	left: 5vh;
+	opacity: 50%;
+	cursor: pointer;
+
+}
+
+.btnproximo{
+	width: 10vh;
+	height: 10vh;
+	background-color: black;
+	border-radius: 50%;
+
+	position: absolute;
+	top: calc(50% - 5vh);
+	right: 5vh;
+	opacity: 50%;
+	cursor: pointer;
+}
+.btnproximo:hover, .btnAnterior:hover{
+	opacity: 20%;
+}
+
+/* fim botões */
+
+.conteudo {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 70vh;
+	align-items: center;
+
+}
+
+.descricao {
+	width: 80%;
+	height: auto;
+	margin-top: 5vh;
+	text-align: center;
+
+}
+
+.topicos {
+	display: flex;
+	flex-direction: row;
+	width: 80%;
+	height: 60vh;
+	justify-content: space-between;
+	margin-top: 5vh;
+
+}
+
+.itens {
+	display: flex;
+	width: 23%;
+	height: 40vh;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.circulo {
+	display: flex;
+	width: 20vh;
+	height: 20vh;
+	border-radius: 50%;
+	background-color: #2B4141;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 1vh 1vh 1vh 1vh #c7c7c7;
+}
+
+.texto {
+	display: flex;
+	width: 100%;
+	height: auto;
+	align-items: center;
+	justify-content: center;
+	margin-top: 3vh;
+}
+
+.img-topicos {
+	width: 16vh;
+	height: 16vh;
+}
+
+.tex-descri {
+	font-family: sans-serif;
+	font-size: 20px;
+
+}
+
+.text-top {
+	font-size: 17px;
+	color: #e4572e;
+	font-family: sans-serif;
+}
+
+h3 {
+	font-size: 4vh;
+	font-family: sans-serif;
+	color: #2B4141;
+}
+
+.aces-categ {
+	display: flex;
+	justify-content: flex-end;
+	width: 80%;
+	height: 2vh;
+	margin: 3vh;
+}
+
+.text-cat {
+	color: #e4572e;
+	font-family: sans-serif;
+	justify-content: flex-end;
+
+}
+
+.areasdoconhecimento {
+	display: flex;
+	width: 100%;
+	height: 90vh;
+	font-size: 3vh;
+	justify-content: center;
+}
+
+.areas-text {
+	display: flex;
+	flex-direction: row;
+	font-family: sans-serif;
+	color: #44A1A0;
+	width: 100%;
+	height: 2vh;
+	justify-content: center;
+	margin: 3vh;
+
+}
+
+.areasdoconhecimento h2 {
+	width: 30%;
+	font-size: 3vh;
+}
+
+.areasdoconhecimento hr {
+	width: 70%;
+	border: 1px solid #44A1A0;
+
+}
+
+.areas-materias {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 30%;
+	height: 50vh;
+	margin: 5px;
+	box-shadow: 1vh 1vh 1vh 1vh #c7c7c7;
+
+}
+/* .areas-materias:hover{
+	transform: scale(1.1);
+} */
+
+.areas-foto {
+	display: flex;
+	width: 100%;
+	height: 40vh;
+
+}
+
+.areas-foto img {
+	width: 100%;
+	height: 40vh;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+
+}
+.areas-foto:hover{
+	opacity: 50%;
+
+}
+
+.areas-tit {
+	display: flex;
+	width: 100%;
+	height: 10vh;
+	background-color: #e4572e;
+	justify-content: center;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	align-items: center;
+
+}
+
+.nome-areas {
+	font-family: sans-serif;
+	color: white;
+	font-size: 30px;
+}
+
+.rodape {
+	display: flex;
+	width: 100%;
+	height: 17vh;
+	background-color: #44A1A0;
+
+}
+
+.foto-icone {
+	width: 30px;
+	height: 30px;
+}
+
+.logo2 {
+	width: 50%;
+	height: 17vh;
+	display: flex;
+}
+
+.pt2 {
+	width: 50%;
+	height: 17vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.navegacao2 {
+	align-items: center;
+	width: 100%;
+	height: 8vh;
+	display: flex;
+	justify-content: flex-end;
+	margin: 2vh;
+}
+
+.menu2 {
+	display: flex;
+	font-family: sans-serif;
+	font-size: 20px;
+	justify-content: flex-end;
+	align-items: center;
+	color: white;
+	margin: 2vh;
+}
+.icones2{
+	margin: 2vh;
+}
+.tit-biologia {
+	display: flex;
+	width: 70%;
+	align-items: center;
+	justify-content: center;
+	margin: 5vh;
+}
+.tit-biologia h2{
+	font-size: 4vh;
+	color: #44A1A0;
+	font-family: sans-serif;
+	width: 70%;
+
+}
+.tit-biologia hr{
+	width: 70%;
+	color:#44A1A0 ;
+	background-color:#44A1A0 ;
+	height: 1px;
+}
+.part-celula{
+	display: flex;
+	width: 100%;
+	height: auto;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 5vh;
+	position: relative;
+	
+}
+#corpo{	
+	width: 60%;
+	height: 90vh;
+	justify-content: center;
+	margin-left: 25%;
+}
+#nucleo{
+	width: 20%;
+	height: 30vh;
+	position: relative;
+	top: 22vh;
+	right: 45vh;
+}
+#reticulo1{
+	width: 15%;
+	height: 33vh;
+	position: relative;
+	top:12vh ;
+	right: 84vh;
+}
+#reticulo2{
+	width: 15%;
+	height: 36vh;
+	position: relative;
+	top:25vh ;
+	right: 80vh;
+
+}
+#centriolos{
+	width: 13%;
+	height: 15vh;
+	position: relative;
+	top:52vh ;
+	right: 127vh;
+}
+#microtubulos1{
+	width: 11%;
+	height: 19vh;
+	position: relative;
+	top:3vh ;
+	right: 132vh;
+}
+/* #microtubulos2{
+	width: 40%;
+	height: 36vh;
+	position: relative;
+	top:50vh ;
+	right: 170vh; */
+#mitocondrias1{
+	width: 12%;
+	height: 18vh;
+	position: relative;
+	top:15vh ;
+	right: 160vh;
+}
+#mitocondrias2{
+	width: 12%;
+	height: 18vh;
+	position: relative;
+	top:55vh ;
+	right: 173vh;
+}
+#mitocondrias3{
+	width: 12%;
+	height: 18vh;
+	position: relative;
+	top:63vh ;
+	right: 147vh;
+}
+#lisossomo1{
+	width: 8%;
+	height: 8vh;
+	position: relative;
+	top:70vh ;
+	right: 190vh;
+}
+.dentro{
+	display: flex;
+	width: 70%;
+	height: auto;
+	position: relative;
+}
+#lisossomo2{
+	width: 8%;
+	height: 8vh;
+	position: relative;
+	top:40vh ;
+	right: 210vh;
+}
+#golgi{
+	width: 12%;
+	height: 12vh;
+	position: relative;
+	top:68vh ;
+	right: 197vh;
+}
+#microtubulos2{
+	width: 18%;
+	height: 23vh;
+	position: relative;
+	top:5vh ;
+	right: 192vh;
+	
+}
+#microtubulos1{
+	width: 14%;
+	height: 16	vh;
+	position: relative;
+	top:34vh ;
+	right: 250vh;
+}
+#microtubulos3{
+	width: 9%;
+	height: 8vh;
+	position: relative;
+	top:60vh ;
+	right: 230vh;
+}
+#nome1:hover, #nome2:hover, #nome3:hover,#nome4:hover,#nome5:hover,#nome6:hover,#nome7:hover,#nome8:hover{
+	opacity: 20%;
+}
+#nome1{
+	width: 20%;
+	height: 10vh;
+	position: relative;
+	top:10vh ;
+	right: 302vh;
+}
+#nome2{
+	width: 22%;
+	height: 11vh;
+	position: relative;
+	top:70vh ;
+	right: 257vh;
+}
+#nome3{
+	width: 22%;
+	height: 11vh;
+	position: relative;
+	top:79vh ;
+	right: 310vh;
+}
+#nome4{
+	width: 20%;
+	height: 6vh;
+	position: relative;
+	top:40vh ;
+	right: 398vh;
+}
+#nome5{
+	width: 19%;
+	height: 6vh;
+	position: relative;
+	top:20vh ;
+	right: 335vh;
+}
+#nome6{
+	width: 22%;
+	height: 9vh;
+	position: relative;
+	top:60vh ;
+	right: 430vh;
+}
+#nome7{
+	width: 22%;
+	height: 9vh;
+	position: relative;
+	top:50vh ;
+	right: 400vh;	
+}
+#nome8{
+	width: 29%;
+	height: 9vh;
+	position: relative;
+	top:40vh ;
+	right: 440vh;	
+}
+.part-texto{
+	display: flex;
+	width: 100%;
+	height: auto;
+	flex-direction: column;
+	margin: 5vh;
+	flex-wrap: wrap	;
+}
+.partes{
+	display: flex;
+	width: 90%;
+	height: auto;
+	flex-direction: row;
+	
+	flex-wrap: wrap;
+	margin: 2vh;
+}
+.partes h3{
+	font-size: 4vh;
+	color: #44A1A0;
+	font-family: sans-serif;
+}
+.partes p{
+	font-size: 3vh;
+	font-family: sans-serif;
+	margin-left: 5vh;
+}
+.conteudo2{
+	display: flex;
+	width: 100%;
+	height: auto;
+	flex-direction: column;
+	align-items: center;
+}
+.textoquiz{
+	display: flex;
+	width: 80%;
+	height: 10vh;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+
+}
+.textoquiz  hr{
+	width: 30%;
+	color:#44A1A0 ;
+	height: 2px;
+	background-color: #44A1A0;
+}
+.textoquiz h2{
+	font-size: 5vh;
+	color:#44A1A0 ;
+	font-family: sans-serif;
+	width: 30%;
+
+}
+.formulario-inicio{
+	display: flex;
+	width: 80%;
+	height: 10vh;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	margin: 2vh;
+	border-color: #44A1A0;
+}
+.formulario-inicio form{
+	justify-content: center;
+	align-items: center;
+}
+.dividir{
+	display: flex;
+	width: 100%;
+	height:auto;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.dividido{
+	display: flex;
+	width: 50%;
+	height:auto;
+	flex-direction: column;
+	margin: 2vh;
+}
+.mensagem{
+	display: flex;
+	width: 100%;
+	height: auto;
+
+}
+.botao{
+	display: flex;
+	width: 100%;
+	height: 15vh;
+	justify-content: flex-start;
+
+
+}
+.botao input{
+	width: 30%;
+	height: 10vh;
+	border-radius: 7px;
+	font-size: 5vh;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	background-color: #44A1A0;
+	color: #ffffff;
+	margin:5vh;
+}
+#nomeform{
+	width: 100%;
+	height: 5vh;
+	border-color: #44A1A0;
+	justify-content: center;
+	border-radius: 7px;
+	font-size: 3vh;
+	margin:5vh;
+}
+.questoes{
+	display: flex;
+	width: 70%;
+	height: 20vh;
+	margin: 3vh;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.quest-text{
+	display: flex;
+	width: 100%;
+	height:10vh;
+
+
+}
+.coluna{
+	width: 80%;
+	height: auto;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;	
+	margin: 5px;
+	font-size: 4vh;
+
+}
+.opcao{
+	display: flex;
+	width: 100%;
+	height: 10vh;
+	flex-direction: row;
+}
+.quest-text h3{
+	font-size: 4vh;
+	color: #44A1A0;
+	margin: 2vh;
+}	
+.tp{
+	font-size: 3vh;
+}
+form{
+	width: 100%;
+}
+.resultados h3{
+	font-size: 5vh;
+	color: #44A1A0;
+	margin-left: 6vh;
+	margin-top: 5vh;
+}
+#resultados{
+	font-size: 5vh;
+	color: #44A1A0;
+	font-family: sans-serif;
+	margin: 5vh;
+}
